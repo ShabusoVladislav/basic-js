@@ -34,18 +34,8 @@ function transform(arr) {
           break;
       }
     }
-    // let i = 0;
-    // while(i < tmpArr.length){
-    //   if(tmpArr[i] === '--double-next'
-    //   || tmpArr[i] === '--double-prev'
-    //   || tmpArr[i] === '--discard-next'
-    //   || tmpArr[i] === '--discard-prev'){
-    //     tmpArr.splice(i, 1);
-    //   }
-    // }
     return tmpArr;
   } else throw new Error("'arr' parameter must be an instance of the Array!");
-  // throw new NotImplementedError('Not implemented');
 }
 
 module.exports = {
